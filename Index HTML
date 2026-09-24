@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outlet Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="promo">EXTRA 35% OFF SELECT BRANDS</div>
+
+  <header>
+  <div class="nav-row">
+  <span class="active">Just In</span>
+  <span>Brands</span>
+  <span>Women</span>
+  <span>Men</span>
+  <span>Shoes</span>
+  <span>Kids</span>
+</div>
+    <div class="logo">OUTLET HUB</div>
+    <div class="search-row">
+      <input type="text" placeholder="Search">
+      <span>🛍️</span>
+    </div>
+    <div class="nav-row">
+      <span class="active">Just In</span>
+      <span>Brands</span>
+      <span>Women</span>
+      <span>Men</span>
+      <span>Shoes</span>
+      <span>Kids</span>
+    </div>
+  </header>
+  <a href="#" class="rewards">Sign in to get your rewards &amp; perks! ›</a>
+
+  <div class="card-row" id="cardRow"></div>
+
+  <div class="banner">
+    <h2>FALL DROP</h2>
+  </div>
+
+  <h3 class="section-title">Featured</h3>
+  <div class="feature-row" id="featureRow"></div>
+
+  <footer>
+  <a href="https://wa.me/0717692314?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="whatsapp-btn" target="_blank">
+  💬 Chat on WhatsApp
+</a>
+    <h2>Don't miss out!</h2>
+    <p>Get early access to the latest deals.</p>
+    <input type="email" placeholder="Email Address">
+    <button id="submitBtn">SUBMIT</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
